@@ -81,7 +81,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\sPannel.png" />
+    <Content Include="assets\img\sPannel.png" />
     <Content Include="css\main.css" />
     <Content Include="index.html" />
     <Content Include="scripts\jquery.js" />
