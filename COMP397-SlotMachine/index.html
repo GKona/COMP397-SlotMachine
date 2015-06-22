@@ -4,6 +4,13 @@
     Last Modified by: Geri Kona
     Date Last Modified: Jun 22, 2015.
     Revision History:
+    Revision        Date           Author       Description
+    1.0             22/06/2015     Geri Kona    Created canvas and drew slot machine
+    1.1             22/06/2015     Geri Kona    Edited slot machine template for more value fields
+    1.2             22/06/2015     Geri Kona    Set up first buttons and event listener
+    1.3             22/06/2015     Geri Kona    Layed out canvas buttons and applied functions to them
+    1.4             22/06/2015     Geri Kona    Reels displaying images
+    1.5             22/06/2015     Geri Kona    Added reel animations and sounds effects
 -->
 <html lang="en">
 <head>
@@ -15,6 +22,7 @@
 <body style="background-color:#4b2d6c">
     <div>
         <h1 style="text-align:center;">Super Slots!</h1>
+        <!--<h3 style="text-align:center; margin-top:-20px;">By: Geri Kona</h3>-->
         <!--
             <div>
                 <hr />
@@ -49,6 +57,7 @@
         </div>
         -->
         <div style="margin-left:auto; margin-right:auto; width:408px; height:517px; border:5px inset #d3cf1d; margin-bottom:25px;">
+            <!--Buttons for spin, quit, reset, increase the bet, and decrease the bet-->
             <menu id="spinBtn"></menu>
             <menu id="quitBtn"></menu>
             <menu id="resetBtn"></menu>
@@ -56,13 +65,8 @@
             <menu id="decBetBtn"></menu>
             <canvas id="myCanvas" width="406" height="515" style="border:1px solid #000000;"></canvas>
         </div>
-        <script>
-            var spinSnd = new Audio();
-            spinSnd.src = "assets/snd/spin.mp3";
-        </script>
         <!-- JavaScript Section -->
         <script src="scripts/jquery.js"></script>
-        <script src="scripts/jqxmenu.js"></script>
         <script src="scripts/main.js"></script>
 </body>
 </html>

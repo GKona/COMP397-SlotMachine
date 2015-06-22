@@ -97,12 +97,14 @@
     <Content Include="assets\snd\Jackpot.wav" />
     <Content Include="assets\snd\lose.wav" />
     <Content Include="assets\snd\quit.wav" />
+    <Content Include="assets\snd\reset.wav" />
     <Content Include="assets\snd\spin.wav" />
+    <Content Include="assets\snd\start.wav" />
+    <Content Include="assets\snd\tick.wav" />
     <Content Include="assets\snd\win.wav" />
     <Content Include="css\main.css" />
     <Content Include="index.html" />
     <Content Include="scripts\jquery.js" />
-    <Content Include="scripts\jqxmenu.js" />
     <Content Include="scripts\main.js" />
     <Content Include="Web.config" />
   </ItemGroup>
