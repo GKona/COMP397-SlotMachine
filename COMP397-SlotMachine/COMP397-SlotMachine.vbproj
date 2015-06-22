@@ -81,10 +81,18 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\img\7s.jpg" />
+    <Content Include="assets\img\bananas.png" />
+    <Content Include="assets\img\bars.jpg" />
+    <Content Include="assets\img\bells.jpg" />
+    <Content Include="assets\img\cherries.jpg" />
+    <Content Include="assets\img\grapes.jpg" />
+    <Content Include="assets\img\oranges.jpg" />
     <Content Include="assets\img\sPannel.png" />
     <Content Include="css\main.css" />
     <Content Include="index.html" />
     <Content Include="scripts\jquery.js" />
+    <Content Include="scripts\jqxmenu.js" />
     <Content Include="scripts\main.js" />
     <Content Include="Web.config" />
   </ItemGroup>
